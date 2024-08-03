@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+.h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text {
+  font-size: 23px;
+  font-family: "Prompt", sans-serif;
+}
+
+.tagline {
+  width: 750px;
+  height: 700px;
+  background-color: #f0f0f0;
+  padding: 2px;
+  margin: 50px;
+  border: 5px #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #000;
+  text-align: justify;
+}
+
+.gambar {
+  width: 550px;
+  height: 550px;
+  background-color: #f0f0f0;
+  padding: 2px;
+  margin: 50px;
+  border: 5px #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 11px 14px 20px -6px rgba(0, 0, 0, 0.75);
+  align-items: center;
+}
+
+.btn {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-family: "Prompt", sans-serif;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.gambar img {
+  transition: all 1s;
+}
+
+.gambar img:hover {
+  transform: scale(1.05);
+}
